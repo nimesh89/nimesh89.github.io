@@ -1,12 +1,14 @@
 body {
     font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
 
 .page-footer {
     background-color:#f5f5f5;
-    position: absolute;
-    bottom: 0px;
-    width: 100vw;
+    position: relative;
+    margin-bottom: 0px;
 }
 
 #borderLeft {
