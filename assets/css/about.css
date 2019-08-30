@@ -11,22 +11,22 @@
 }
 
 @media only screen 
-  and (max-device-width: 505px) {
+  and (max-device-width: 414px) {
     .about-me-pic {
-        width: 174px;
-        height: 250px;
         margin-right: auto;
         margin-left: auto;
     }
 }
 
 @media only screen 
-  and (min-device-width: 506px) {
+  and (min-device-width: 414px) {
     .about-me-pic {
-        width: 174px;
-        height: 250px;
         margin-right: 2vw;
         margin-left: unset;
+    }
+
+    .about-container {
+        flex-wrap: nowrap;
     }
 }
 
