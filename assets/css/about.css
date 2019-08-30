@@ -15,6 +15,10 @@
         margin-right: auto;
         margin-left: auto;
     }
+    .about-me-contact {
+        margin-right: auto;
+        margin-left: auto;
+    }
 }
 
 @media only screen 
@@ -35,9 +39,5 @@
 .about-me-contact {
     flex-shrink: 1;
     display: flex;
-}
-
-.quot-1{
-    margin-top: auto;
-    margin-bottom: auto;
+    justify-content: center;
 }
