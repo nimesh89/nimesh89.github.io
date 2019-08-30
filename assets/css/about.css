@@ -1,30 +1,39 @@
 .about-me-pic {
     width: 174px;
     height: 250px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-
-.about-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
 }
 
 @media only screen 
-  and (min-device-width: 415px) {
-    .about-me-pic {
-        margin-right: 2vw;
-        margin-left: unset;
+  and (max-device-width: 415px) {
+    .about-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 
+    .about-me-pic {
+        width: 174px;
+        height: 250px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 416px) {
     .about-container {
+        display: flex;
+        flex-direction: row;
         flex-wrap: nowrap;
+    }
+
+    .about-me-pic {
+        margin-right: 2vw;
+        margin-left: initial;
     }
 }
 
 
-.about-me-contact{
+.about-me-contact {
     flex-shrink: 1;
 }
