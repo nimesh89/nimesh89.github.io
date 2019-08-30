@@ -4,7 +4,7 @@
 }
 
 @media only screen 
-  and (max-device-width: 415px) {
+  and (max-width: 415px) {
     .about-container {
         display: flex;
         flex-direction: row;
@@ -18,7 +18,7 @@
 }
 
 @media only screen 
-  and (min-device-width: 416px) {
+  and (min-width: 416px) {
     .about-container {
         display: flex;
         flex-direction: row;
