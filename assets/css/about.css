@@ -19,7 +19,7 @@
 }
 
 @media only screen 
-  and (min-device-width: 416px) {
+  and (min-device-width: 415px) {
     .about-me-pic {
         margin-right: 2vw;
         margin-left: unset;
