@@ -3,11 +3,24 @@
     height: 250px;
 }
 
+.about-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #cccc;
+    padding: 5px 0px 5px;
+    justify-content: space-around;
+}
+
+@media only screen 
+  and (max-width: 375px) {
+    .quot-mark{
+        display: none;
+    }
+}
+
 @media only screen 
   and (max-width: 415px) {
     .about-container {
-        display: flex;
-        flex-direction: row;
         flex-wrap: wrap;
     }
 
@@ -24,8 +37,6 @@
 @media only screen 
   and (min-width: 416px) {
     .about-container {
-        display: flex;
-        flex-direction: row;
         flex-wrap: nowrap;
     }
 
@@ -39,6 +50,13 @@
     }
 }
 
+.quot-mark {
+    position: relative;
+    width: 32px;
+    height: 32px;
+    top: 18px;
+    left: -274px;
+}
 
 .about-me-contact {
     flex-shrink: 1;
