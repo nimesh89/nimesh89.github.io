@@ -1,4 +1,37 @@
-.about-me-pic {
-    width: 174px;
-    height: 250px;
+@media only screen 
+  and (max-device-width: 375px) {
+    .about-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .about-me-pic {
+        width: 174px;
+        height: 250px;
+        margin-right: 2vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 667px) {
+    .about-me-pic {
+        width: 174px;
+        height: 250px;
+        margin-right: 2vw;
+    }
+
+    .about-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+
+
+.about-me-contact{
+    flex-shrink: 1;
 }
