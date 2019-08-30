@@ -33,11 +33,14 @@
         margin-right: 2vw;
         margin-left: initial;
     }
+
+    .quot-1{
+        align-self: center;
+    }
 }
 
 
 .about-me-contact {
     flex-shrink: 1;
     display: flex;
-    justify-content: center;
 }
