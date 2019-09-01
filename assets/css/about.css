@@ -50,6 +50,7 @@
 
     .about-intro-text {
         max-width: 100vw;
+        padding: 1vh 1vw;
     }
 }
 
@@ -69,12 +70,24 @@
     }
 }
 
-.quot-mark {
-    position: relative;
+.quot-mark-left {
+    position: absolute;
     width: 32px;
     height: 32px;
-    top: 18px;
-    left: -274px;
+    top: -15px;
+    left: -40px;
+}
+
+.quot-mark-right {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    bottom: -15px;
+    right: -40px;
+}
+
+.quot-1{
+    position: relative;
 }
 
 .about-me-contact {
